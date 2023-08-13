@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@kmamal/sdl": "^0.7.8",
+    "canvas": "^2.11.2",
+    "sharp": "0.31.3",
+    "speaker": "^0.5.4"
+  },
+  "name": "vectron",
+  "version": "1.0.0",
+  "description": "bad vector-based game engine, made with node-sdl",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js apps/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shidemuri/vectron.git"
+  },
+  "keywords": [
+    "game",
+    "engine",
+    "vector",
+    "node-sdl",
+    "sdl"
+  ],
+  "author": "padero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shidemuri/vectron/issues"
+  },
+  "homepage": "https://github.com/shidemuri/vectron#readme"
+}
