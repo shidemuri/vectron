@@ -151,7 +151,7 @@ let game = require(path.resolve(chosen))
 game.__FRAMERATE = Number(game.__FRAMERATE) !== NaN ? game.__FRAMERATE : 50
 
 for(let y=128;y>0;y--) (new Vector(0,y,128,y)).draw()
-for(let x=0;x<128;i++) (new Vector)
+for(let x=0;x<128;x++) (new Vector(x,0,x,128)).draw()
 
 
 game.start.call({Vector,keydown},dt)

@@ -25,6 +25,7 @@ function update() {}
 
 function fixedupdate() {
     let asd = pathdata[i]?.split('|')
+    if(asd.length == 0) return
     asd.pop()
     for(let vect of asd) {
         (new this.Vector(
